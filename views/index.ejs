@@ -3,12 +3,13 @@
 
 <head>
   <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css">
   <title>Mars Missions</title>
 </head>
 
 <body>
   <h1>Mars Missions</h1>
-  <%for (i=0; i<missions.length;i++) {%>
+  <%for (let i=0; i<missions.length;i++) {%>
     <ul>
       <li>
         <a href="/marsMission/<%=i%>">

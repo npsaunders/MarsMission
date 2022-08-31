@@ -3,7 +3,7 @@ const express = require("express");
 const marsMissions = require("./models/mars_index.js");
 const app = express();
 const port = 3000;
-
+app.use(express.static("public"));
 
 //routes
 
