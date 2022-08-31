@@ -8,7 +8,9 @@ const port = 3000;
 //routes
 
 app.get("/", (req, res) => {
-  res.send("Mars Mission initial route");
+  res.render("index.ejs", {
+    missions: marsMissions,
+  });
 })
 
 //Listener
