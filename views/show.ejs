@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Mars Missions</title>
+</head>
+
+<body>
+  <h1>
+    <%=missions.name %> Mission
+  </h1>
+
+  <div class="missionData">
+    <h3>
+      Launch Date: <%= missions.launchDate%>
+    </h3>
+    <h3>
+      Mission Operator: <%= missions.operator%>
+    </h3>
+    <h3>
+      Mission Type: <%= missions.missionType%>
+    </h3>
+    <img src=<%=missions.img%> alt="picture" />
+  </div>
+
+  <a href="/">Back to Index</a>
+</body>
+
+</html>
